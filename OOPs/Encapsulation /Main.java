@@ -51,17 +51,14 @@ Definition:
 
 public class Main{
     public static void main(String[] args){
-         BankAccount account1 = new BankAccount("ACC1234567889765", 100000.00);
+        BankAccount account1 = new BankAccount("ACC1234567889765", 100000.00);
         account1.deposit(5000.00);
         account1.withdraw(2000.00);
         System.out.println("Account Number: " + account1.getAccount());
         System.out.println("Current Balance: " + account1.getBalance());
     }
 }
-
-
-
-
+ 
 /*
  -> Encapsulation = Data Hiding + Controlled Access + Validation + Maintaining Invariants
 
