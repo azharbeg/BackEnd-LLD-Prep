@@ -9,7 +9,7 @@ Definition:
     
     // Internal state is hidden from the outside world
     private final String accountNumber;
-      private double balance;
+    private double balance;
 
       public BankAccount(String accountNumber, double initialBalance){
 
