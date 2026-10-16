@@ -8,7 +8,7 @@ package OOPs.Abstraction;
    It should only know that a payment can be processed.
 */
 
- interface PaymentGateway{  // This interface defines what the system can do, not how it does it.
+interface PaymentGateway{  // This interface defines what the system can do, not how it does it.
 
   abstract boolean pay(double amount);
 }
@@ -57,9 +57,6 @@ class UPIGateway implements PaymentGateway{
         }
     }
 }
-
-
-
 
 public class AbstractionMain {
     
