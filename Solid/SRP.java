@@ -5,6 +5,7 @@ package Solid;
 
 */
 
+
 // Responsibility 1 -> Bird behavior
 class Bird{
   
@@ -17,7 +18,7 @@ class Bird{
      }
 }
 
-// Responsibility 2 ->. Saving Bird data
+// Responsibility 2 -> Saving Bird data
 
 class BirdRepository{
 
@@ -42,7 +43,6 @@ class BirdService{
     }
 }
   
-
 public class SRP{
 
     public static void main(String[] agrs){
