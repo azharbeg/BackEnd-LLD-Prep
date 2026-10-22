@@ -66,6 +66,14 @@ class BirdService{
         bird.fly();
         repository.BirdSave(bird);
     }
+    public void makeBirdFly(Sparrow sparrow) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'makeBirdFly'");
+    }
+    public void feedBird(Bird penguin) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'feedBird'");
+    }
 }
 
 
